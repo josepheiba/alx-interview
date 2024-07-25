@@ -3,6 +3,7 @@
 pascal_triangle
 """
 
+
 def pascal_triangle(n):
     """
     pascal_triangle
@@ -16,4 +17,3 @@ def pascal_triangle(n):
                 row[j] = list_list[i - 1][j] + list_list[i - 1][j - 1]
             list_list.append(row)
     return list_list
-        
