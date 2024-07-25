@@ -4,6 +4,9 @@ pascal_triangle
 """
 
 def pascal_triangle(n):
+    """
+    pascal_triangle
+    """
     list_list = []
     if n > 0:
         list_list.append([1])
